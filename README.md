@@ -1,1 +1,1 @@
-demo : https://kalkulyator-by-yokubjanovich.netlify.app/
+demo : https://rating-by-yokubjanovich.netlify.app/

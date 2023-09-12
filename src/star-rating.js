@@ -25,6 +25,7 @@ StarRating.propTypes = {
 export default function StarRating({ maxRating, color = "#fcc419", size, massadges = [], defaultRating = 0, setRated }) {
   const [tempRating, setTempRating] = useState(0);
   const [rating, setRating] = useState(defaultRating);
+  setRated(rating);
 
   const textStyle = {
     lineHeight: "0",
